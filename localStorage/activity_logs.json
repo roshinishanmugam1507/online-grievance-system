@@ -1,0 +1,186 @@
+[
+  {
+    "id": "ACT-0001",
+    "userId": "USR-0001",
+    "action": "USER_REGISTERED",
+    "referenceId": "USR-0001",
+    "details": "Citizen registered successfully (Ramesh Krishnan)",
+    "timestamp": "2026-08-28T04:41:01.530Z"
+  },
+  {
+    "id": "ACT-0002",
+    "userId": "USR-0001",
+    "action": "NOTIFICATION_CREATED",
+    "referenceId": "NOT-0001",
+    "details": "Notification sent: Welcome to OPGRS",
+    "timestamp": "2026-08-28T04:41:01.534Z"
+  },
+  {
+    "id": "ACT-0003",
+    "userId": "USR-0001",
+    "action": "USER_LOGIN",
+    "referenceId": "USR-0001",
+    "details": "User logged in (ramesh@example.com)",
+    "timestamp": "2026-08-28T04:41:01.559Z"
+  },
+  {
+    "id": "ACT-0004",
+    "userId": "USR-0001",
+    "action": "NOTIFICATION_CREATED",
+    "referenceId": "NOT-0002",
+    "details": "Notification sent: Grievance Registered",
+    "timestamp": "2026-08-28T04:41:01.578Z"
+  },
+  {
+    "id": "ACT-0005",
+    "userId": "USR-0001",
+    "action": "GRIEVANCE_SUBMITTED",
+    "referenceId": "GRV-0001",
+    "details": "New grievance submitted: Damaged Pothole on 2nd Cross Road (GRV-0001)",
+    "timestamp": "2026-08-28T04:41:01.580Z"
+  },
+  {
+    "id": "ACT-0006",
+    "userId": "USR-0001",
+    "action": "NOTIFICATION_CREATED",
+    "referenceId": "NOT-0003",
+    "details": "Notification sent: Grievance Status: In Progress",
+    "timestamp": "2026-08-28T04:41:01.594Z"
+  },
+  {
+    "id": "ACT-0007",
+    "userId": "off-1",
+    "action": "GRIEVANCE_STATUS_UPDATED",
+    "referenceId": "GRV-0001",
+    "details": "Status of GRV-0001 updated to In Progress",
+    "timestamp": "2026-08-28T04:41:01.595Z"
+  },
+  {
+    "id": "ACT-0008",
+    "userId": "USR-0001",
+    "action": "FEEDBACK_SUBMITTED",
+    "referenceId": "FDB-0001",
+    "details": "Feedback submitted for grievance GRV-0001 (Rating: 5/5)",
+    "timestamp": "2026-08-28T04:41:01.614Z"
+  },
+  {
+    "id": "ACT-0009",
+    "userId": "USR-0001",
+    "action": "NOTIFICATION_READ",
+    "referenceId": "NOT-0003",
+    "details": "Notification marked as read: Grievance Status: In Progress",
+    "timestamp": "2026-08-28T04:41:01.635Z"
+  },
+  {
+    "id": "ACT-0010",
+    "userId": "USR-0002",
+    "action": "USER_REGISTERED",
+    "referenceId": "USR-0002",
+    "details": "Citizen registered successfully (Ramesh Krishnan)",
+    "timestamp": "2026-08-28T05:01:37.996Z"
+  },
+  {
+    "id": "ACT-0011",
+    "userId": "USR-0002",
+    "action": "NOTIFICATION_CREATED",
+    "referenceId": "NOT-0004",
+    "details": "Notification sent: Welcome to OPGRS",
+    "timestamp": "2026-08-28T05:01:37.999Z"
+  },
+  {
+    "id": "ACT-0012",
+    "userId": "USR-0002",
+    "action": "USER_LOGIN",
+    "referenceId": "USR-0002",
+    "details": "User logged in (ramesh_1787893297938@example.com)",
+    "timestamp": "2026-08-28T05:01:38.011Z"
+  },
+  {
+    "id": "ACT-0013",
+    "userId": "USR-0002",
+    "action": "NOTIFICATION_CREATED",
+    "referenceId": "NOT-0005",
+    "details": "Notification sent: Grievance Registered",
+    "timestamp": "2026-08-28T05:01:38.031Z"
+  },
+  {
+    "id": "ACT-0014",
+    "userId": "USR-0002",
+    "action": "GRIEVANCE_SUBMITTED",
+    "referenceId": "GRV-0002",
+    "details": "New grievance submitted: Damaged Pothole on 2nd Cross Road (GRV-0002)",
+    "timestamp": "2026-08-28T05:01:38.032Z"
+  },
+  {
+    "id": "ACT-0015",
+    "userId": "USR-0002",
+    "action": "NOTIFICATION_CREATED",
+    "referenceId": "NOT-0006",
+    "details": "Notification sent: Grievance Status: In Progress",
+    "timestamp": "2026-08-28T05:01:38.045Z"
+  },
+  {
+    "id": "ACT-0016",
+    "userId": "off-1",
+    "action": "GRIEVANCE_STATUS_UPDATED",
+    "referenceId": "GRV-0002",
+    "details": "Status of GRV-0002 updated to In Progress",
+    "timestamp": "2026-08-28T05:01:38.047Z"
+  },
+  {
+    "id": "ACT-0017",
+    "userId": "USR-0002",
+    "action": "NOTIFICATION_READ",
+    "referenceId": "NOT-0006",
+    "details": "Notification marked as read: Grievance Status: In Progress",
+    "timestamp": "2026-08-28T05:01:38.069Z"
+  },
+  {
+    "id": "ACT-0018",
+    "userId": "USR-0003",
+    "action": "USER_REGISTERED",
+    "referenceId": "USR-0003",
+    "details": "Citizen registered successfully (maha)",
+    "timestamp": "2026-08-28T05:02:40.302Z"
+  },
+  {
+    "id": "ACT-0019",
+    "userId": "USR-0003",
+    "action": "NOTIFICATION_CREATED",
+    "referenceId": "NOT-0007",
+    "details": "Notification sent: Welcome to OPGRS",
+    "timestamp": "2026-08-28T05:02:40.316Z"
+  },
+  {
+    "id": "ACT-0020",
+    "userId": "USR-0003",
+    "action": "NOTIFICATION_CREATED",
+    "referenceId": "NOT-0008",
+    "details": "Notification sent: Grievance Registered",
+    "timestamp": "2026-08-28T05:05:23.574Z"
+  },
+  {
+    "id": "ACT-0021",
+    "userId": "USR-0003",
+    "action": "GRIEVANCE_SUBMITTED",
+    "referenceId": "GRV-0003",
+    "details": "New grievance submitted: Water supply problem (GRV-2026-000001)",
+    "timestamp": "2026-08-28T05:05:23.576Z"
+  },
+  {
+    "id": "ACT-0022",
+    "userId": "USR-0003",
+    "action": "GRIEVANCE_VIEWED",
+    "referenceId": "GRV-0003",
+    "details": "Viewed grievance details (GRV-2026-000001)",
+    "timestamp": "2026-08-28T05:05:26.188Z"
+  },
+  {
+    "id": "ACT-0023",
+    "userId": "USR-0003",
+    "action": "GRIEVANCE_VIEWED",
+    "referenceId": "GRV-0003",
+    "details": "Viewed grievance details (GRV-2026-000001)",
+    "timestamp": "2026-08-28T05:05:26.197Z"
+  }
+]

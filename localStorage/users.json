@@ -1,0 +1,35 @@
+[
+  {
+    "id": "USR-0001",
+    "name": "Ramesh Krishnan",
+    "email": "ramesh@example.com",
+    "phone": "9840123456",
+    "address": "12, Anna Nagar West, Chennai",
+    "passwordHash": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "role": "citizen",
+    "status": "Active",
+    "createdAt": "2026-08-28T04:41:01.527Z"
+  },
+  {
+    "id": "USR-0002",
+    "name": "Ramesh Krishnan",
+    "email": "ramesh_1787893297938@example.com",
+    "phone": "9840123456",
+    "address": "12, Anna Nagar West, Chennai",
+    "passwordHash": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "role": "citizen",
+    "status": "Active",
+    "createdAt": "2026-08-28T05:01:37.994Z"
+  },
+  {
+    "id": "USR-0003",
+    "name": "maha",
+    "email": "maha1234@gmail.com",
+    "phone": "6832472934",
+    "address": "34, erumapatti, namakkal.",
+    "passwordHash": "b890b99064047cf19fdc82a69a1b9b56a6e0d436f2966e06615c3a7cc85e13e1",
+    "role": "citizen",
+    "status": "Active",
+    "createdAt": "2026-08-28T05:02:40.295Z"
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "id": "FDB-0001",
+    "userId": "USR-0001",
+    "grievanceId": "GRV-0001",
+    "rating": 5,
+    "comments": "Work completed on time, thank you!",
+    "feedbackText": "Work completed on time, thank you!",
+    "createdAt": "2026-08-28T04:41:01.612Z"
+  },
+  {
+    "id": "FDB-0002",
+    "userId": "USR-0002",
+    "grievanceId": "GRV-0002",
+    "rating": 5,
+    "comments": "Work completed on time, thank you!",
+    "feedbackText": "Work completed on time, thank you!",
+    "createdAt": "2026-08-28T05:01:38.051Z"
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "token": "token-USR-0001-1787892061535",
+    "user": {
+      "id": "USR-0001",
+      "name": "Ramesh Krishnan",
+      "email": "ramesh@example.com",
+      "phone": "9840123456",
+      "address": "12, Anna Nagar West, Chennai",
+      "role": "citizen",
+      "status": "Active",
+      "createdAt": "2026-08-28T04:41:01.527Z"
+    },
+    "createdAt": "2026-08-28T04:41:01.535Z"
+  },
+  {
+    "token": "token-USR-0001-1787892061558",
+    "user": {
+      "id": "USR-0001",
+      "name": "Ramesh Krishnan",
+      "email": "ramesh@example.com",
+      "phone": "9840123456",
+      "address": "12, Anna Nagar West, Chennai",
+      "role": "citizen",
+      "status": "Active",
+      "createdAt": "2026-08-28T04:41:01.527Z"
+    },
+    "createdAt": "2026-08-28T04:41:01.560Z"
+  },
+  {
+    "token": "token-USR-0002-1787893298000",
+    "user": {
+      "id": "USR-0002",
+      "name": "Ramesh Krishnan",
+      "email": "ramesh_1787893297938@example.com",
+      "phone": "9840123456",
+      "address": "12, Anna Nagar West, Chennai",
+      "role": "citizen",
+      "status": "Active",
+      "createdAt": "2026-08-28T05:01:37.994Z"
+    },
+    "createdAt": "2026-08-28T05:01:38.000Z"
+  },
+  {
+    "token": "token-USR-0002-1787893298011",
+    "user": {
+      "id": "USR-0002",
+      "name": "Ramesh Krishnan",
+      "email": "ramesh_1787893297938@example.com",
+      "phone": "9840123456",
+      "address": "12, Anna Nagar West, Chennai",
+      "role": "citizen",
+      "status": "Active",
+      "createdAt": "2026-08-28T05:01:37.994Z"
+    },
+    "createdAt": "2026-08-28T05:01:38.013Z"
+  },
+  {
+    "token": "token-USR-0003-1787893360320",
+    "user": {
+      "id": "USR-0003",
+      "name": "maha",
+      "email": "maha1234@gmail.com",
+      "phone": "6832472934",
+      "address": "34, erumapatti, namakkal.",
+      "role": "citizen",
+      "status": "Active",
+      "createdAt": "2026-08-28T05:02:40.295Z"
+    },
+    "createdAt": "2026-08-28T05:02:40.321Z"
+  }
+]

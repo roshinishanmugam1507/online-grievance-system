@@ -1,0 +1,122 @@
+[
+  {
+    "id": "off-1",
+    "userId": "user-off-1",
+    "name": "Officer Rajesh Kumar",
+    "email": "officer@grievance.gov.demo",
+    "phone": "9840112233",
+    "departmentId": "dept-1",
+    "designation": "Assistant Executive Engineer",
+    "zone": "Zone 5 - Royapuram",
+    "status": "Active",
+    "createdAt": "2025-01-15T10:00:00.000Z"
+  },
+  {
+    "id": "off-2",
+    "userId": "user-off-2",
+    "name": "Officer Priya Sundaram",
+    "email": "priya.roads@grievance.gov.demo",
+    "phone": "9840112234",
+    "departmentId": "dept-1",
+    "designation": "Assistant Engineer (Roads)",
+    "zone": "Zone 5 - Royapuram",
+    "status": "Active",
+    "createdAt": "2025-01-15T10:00:00.000Z"
+  },
+  {
+    "id": "off-3",
+    "userId": "user-off-3",
+    "name": "Officer Anand Narayanan",
+    "email": "anand.water@grievance.gov.demo",
+    "phone": "9840112235",
+    "departmentId": "dept-2",
+    "designation": "Water Works Inspector",
+    "zone": "Zone 10 - Kodambakkam",
+    "status": "Active",
+    "createdAt": "2025-01-15T10:00:00.000Z"
+  },
+  {
+    "id": "off-4",
+    "userId": "user-off-4",
+    "name": "Officer Suresh Babu",
+    "email": "suresh.water@grievance.gov.demo",
+    "phone": "9840112236",
+    "departmentId": "dept-2",
+    "designation": "Sewerage Network Engineer",
+    "zone": "Zone 13 - Adyar",
+    "status": "Active",
+    "createdAt": "2025-01-15T10:00:00.000Z"
+  },
+  {
+    "id": "off-5",
+    "userId": "user-off-5",
+    "name": "Officer Vigneshwaran R.",
+    "email": "vignesh.elec@grievance.gov.demo",
+    "phone": "9840112237",
+    "departmentId": "dept-3",
+    "designation": "Junior Engineer (Distribution)",
+    "zone": "Zone 6 - Thiru Vi Ka Nagar",
+    "status": "Active",
+    "createdAt": "2025-01-15T10:00:00.000Z"
+  },
+  {
+    "id": "off-6",
+    "userId": "user-off-6",
+    "name": "Officer Manjula Devi",
+    "email": "manjula.waste@grievance.gov.demo",
+    "phone": "9840112238",
+    "departmentId": "dept-4",
+    "designation": "Sanitary Inspector",
+    "zone": "Zone 8 - Kilpauk",
+    "status": "Active",
+    "createdAt": "2025-01-15T10:00:00.000Z"
+  },
+  {
+    "id": "off-7",
+    "userId": "user-off-7",
+    "name": "Dr. Harish Madhavan",
+    "email": "harish.health@grievance.gov.demo",
+    "phone": "9840112239",
+    "departmentId": "dept-5",
+    "designation": "Medical Officer of Health",
+    "zone": "Zone 9 - Mylapore",
+    "status": "Active",
+    "createdAt": "2025-01-15T10:00:00.000Z"
+  },
+  {
+    "id": "off-8",
+    "userId": "user-off-8",
+    "name": "Officer Manikandan S.",
+    "email": "mani.lighting@grievance.gov.demo",
+    "phone": "9840112240",
+    "departmentId": "dept-6",
+    "designation": "Electrical Supervisor",
+    "zone": "Zone 11 - Valasaravakkam",
+    "status": "Active",
+    "createdAt": "2025-01-15T10:00:00.000Z"
+  },
+  {
+    "id": "off-9",
+    "userId": "user-off-9",
+    "name": "Officer Saravanan G.",
+    "email": "saravanan.drain@grievance.gov.demo",
+    "phone": "9840112241",
+    "departmentId": "dept-7",
+    "designation": "Storm Drainage Inspector",
+    "zone": "Zone 7 - Ambattur",
+    "status": "Active",
+    "createdAt": "2025-01-15T10:00:00.000Z"
+  },
+  {
+    "id": "off-10",
+    "userId": "user-off-10",
+    "name": "Officer Balamurugan T.",
+    "email": "bala.roads@grievance.gov.demo",
+    "phone": "9840112242",
+    "departmentId": "dept-1",
+    "designation": "Highway Quality Supervisor",
+    "zone": "Zone 14 - Perungudi",
+    "status": "Active",
+    "createdAt": "2025-01-15T10:00:00.000Z"
+  }
+]

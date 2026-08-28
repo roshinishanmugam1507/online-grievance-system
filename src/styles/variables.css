@@ -1,0 +1,64 @@
+:root {
+  /* Government & Institutional Color Palette */
+  --pgrs-primary: #0f2b48;
+  --pgrs-primary-dark: #0a1b2e;
+  --pgrs-primary-light: #1e3e60;
+  --pgrs-secondary: #1a446c;
+  --pgrs-accent: #d97706; /* Ashoka Amber / Saffron Accent */
+  --pgrs-accent-hover: #b45309;
+  
+  --pgrs-success: #059669;
+  --pgrs-success-bg: #ecfdf5;
+  --pgrs-warning: #d97706;
+  --pgrs-warning-bg: #fffbeb;
+  --pgrs-danger: #dc2626;
+  --pgrs-danger-bg: #fef2f2;
+  --pgrs-info: #0284c7;
+  --pgrs-info-bg: #f0f9ff;
+  
+  /* Neutral Grays */
+  --pgrs-bg-main: #f4f6f9;
+  --pgrs-bg-card: #ffffff;
+  --pgrs-bg-sidebar: #0b1e33;
+  --pgrs-bg-sidebar-hover: #162c45;
+  --pgrs-bg-sidebar-active: #1e3a5f;
+  
+  --pgrs-text-primary: #1e293b;
+  --pgrs-text-secondary: #475569;
+  --pgrs-text-muted: #64748b;
+  --pgrs-text-light: #f8fafc;
+  
+  --pgrs-border: #e2e8f0;
+  --pgrs-border-subtle: #cbd5e1;
+  --pgrs-border-focus: #0284c7;
+  
+  /* Status Colors */
+  --pgrs-status-submitted: #475569;
+  --pgrs-status-review: #0284c7;
+  --pgrs-status-assigned: #6366f1;
+  --pgrs-status-inprogress: #d97706;
+  --pgrs-status-resolved: #059669;
+  --pgrs-status-rejected: #dc2626;
+  --pgrs-status-withdrawn: #94a3b8;
+  
+  /* Priority Colors */
+  --pgrs-priority-low: #059669;
+  --pgrs-priority-med: #0284c7;
+  --pgrs-priority-high: #d97706;
+  --pgrs-priority-urgent: #dc2626;
+  
+  /* Shadows & Radius */
+  --pgrs-shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --pgrs-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.07), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
+  --pgrs-shadow-md: 0 10px 15px -3px rgba(0, 0, 0, 0.08), 0 4px 6px -4px rgba(0, 0, 0, 0.04);
+  --pgrs-shadow-lg: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.05);
+  
+  --pgrs-radius-sm: 6px;
+  --pgrs-radius: 10px;
+  --pgrs-radius-lg: 14px;
+  --pgrs-radius-xl: 20px;
+  
+  --pgrs-sidebar-width: 260px;
+  --pgrs-navbar-height: 70px;
+  --pgrs-font-sans: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+}

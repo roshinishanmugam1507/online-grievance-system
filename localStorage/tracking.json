@@ -1,0 +1,47 @@
+[
+  {
+    "id": "TRK-0001",
+    "grievanceId": "GRV-0001",
+    "status": "Submitted",
+    "message": "Grievance registered successfully by citizen via portal.",
+    "updatedBy": "Ramesh Krishnan",
+    "updatedByRole": "citizen",
+    "timestamp": "2026-08-28T04:41:01.575Z"
+  },
+  {
+    "id": "TRK-0002",
+    "grievanceId": "GRV-0001",
+    "status": "In Progress",
+    "message": "Inspection completed. Repair team dispatched.",
+    "updatedBy": "Officer / Authority",
+    "updatedByRole": "authority",
+    "timestamp": "2026-08-28T04:41:01.589Z"
+  },
+  {
+    "id": "TRK-0003",
+    "grievanceId": "GRV-0002",
+    "status": "Submitted",
+    "message": "Grievance registered successfully by citizen via portal.",
+    "updatedBy": "Ramesh Krishnan",
+    "updatedByRole": "citizen",
+    "timestamp": "2026-08-28T05:01:38.027Z"
+  },
+  {
+    "id": "TRK-0004",
+    "grievanceId": "GRV-0002",
+    "status": "In Progress",
+    "message": "Inspection completed. Repair team dispatched.",
+    "updatedBy": "Officer / Authority",
+    "updatedByRole": "authority",
+    "timestamp": "2026-08-28T05:01:38.041Z"
+  },
+  {
+    "id": "TRK-0005",
+    "grievanceId": "GRV-0003",
+    "status": "Submitted",
+    "message": "Grievance registered successfully by citizen via portal.",
+    "updatedBy": "maha",
+    "updatedByRole": "citizen",
+    "timestamp": "2026-08-28T05:05:23.567Z"
+  }
+]

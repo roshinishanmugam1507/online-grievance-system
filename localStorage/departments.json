@@ -1,0 +1,90 @@
+[
+  {
+    "id": "dept-1",
+    "name": "Roads & Transport",
+    "code": "RND",
+    "description": "Maintenance of city roads, pavements, potholes, traffic signaling, and pedestrian infrastructure.",
+    "head": "Er. S. Venkataraman",
+    "email": "roads@grievance.gov.demo",
+    "phone": "044-25619001",
+    "status": "Active",
+    "createdAt": "2025-01-10T09:00:00.000Z"
+  },
+  {
+    "id": "dept-2",
+    "name": "Water Supply & Sewerage",
+    "code": "WSS",
+    "description": "Municipal piped water supply, drinking water purity, pipeline leakages, and sewerage network.",
+    "head": "Er. K. Meenakshi",
+    "email": "water@grievance.gov.demo",
+    "phone": "044-25619002",
+    "status": "Active",
+    "createdAt": "2025-01-10T09:00:00.000Z"
+  },
+  {
+    "id": "dept-3",
+    "name": "Electricity Board (TNEB)",
+    "code": "ELE",
+    "description": "Power distribution, transformer maintenance, frequent outages, hanging cables, and electric safety.",
+    "head": "Er. R. Soundararajan",
+    "email": "electricity@grievance.gov.demo",
+    "phone": "044-25619003",
+    "status": "Active",
+    "createdAt": "2025-01-10T09:00:00.000Z"
+  },
+  {
+    "id": "dept-4",
+    "name": "Solid Waste & Sanitation",
+    "code": "SAN",
+    "description": "Door-to-door waste collection, street sweeping, garbage bin clearance, and anti-littering enforcement.",
+    "head": "Dr. P. Arumugam",
+    "email": "sanitation@grievance.gov.demo",
+    "phone": "044-25619004",
+    "status": "Active",
+    "createdAt": "2025-01-10T09:00:00.000Z"
+  },
+  {
+    "id": "dept-5",
+    "name": "Public Health & Malaria Control",
+    "code": "HLT",
+    "description": "Mosquito fogging, stagnant water treatment, vector control, clinic sanitation, and food safety inspection.",
+    "head": "Dr. Deepa Natarajan",
+    "email": "health@grievance.gov.demo",
+    "phone": "044-25619005",
+    "status": "Active",
+    "createdAt": "2025-01-10T09:00:00.000Z"
+  },
+  {
+    "id": "dept-6",
+    "name": "Street Lighting & Electricals",
+    "code": "LGT",
+    "description": "LED streetlights, dark spot illumination, timer automation, and cable fault repairs.",
+    "head": "Er. M. Saravanan",
+    "email": "lighting@grievance.gov.demo",
+    "phone": "044-25619006",
+    "status": "Active",
+    "createdAt": "2025-01-10T09:00:00.000Z"
+  },
+  {
+    "id": "dept-7",
+    "name": "Storm Water Drainage",
+    "code": "DRN",
+    "description": "Monsoon flood preparedness, stormwater drain desilting, culvert maintenance, and water logging redressal.",
+    "head": "Er. N. Raghuram",
+    "email": "drainage@grievance.gov.demo",
+    "phone": "044-25619007",
+    "status": "Active",
+    "createdAt": "2025-01-10T09:00:00.000Z"
+  },
+  {
+    "id": "dept-8",
+    "name": "Parks, Playgrounds & Greenery",
+    "code": "PRK",
+    "description": "Public park upkeep, play equipment maintenance, tree pruning, sapling plantation, and botanical gardens.",
+    "head": "Smt. Shanthi Mohan",
+    "email": "parks@grievance.gov.demo",
+    "phone": "044-25619008",
+    "status": "Active",
+    "createdAt": "2025-01-10T09:00:00.000Z"
+  }
+]
