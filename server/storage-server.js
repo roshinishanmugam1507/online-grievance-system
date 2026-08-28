@@ -57,6 +57,156 @@ const hashPassword = (plain) => {
   return crypto.createHash('sha256').update(plain || '').digest('hex');
 };
 
+// Initial Seed Users for Demo & Administration
+const DEFAULT_USERS = [
+  // Admin Demo Account
+  {
+    id: "user-admin-1",
+    name: "Chief Grievance Officer (Admin)",
+    email: "admin@grievance.gov.demo",
+    phone: "9840000001",
+    address: "Public Grievance Secretariat, Rippon Buildings, Chennai - 600003",
+    passwordHash: hashPassword("admin123"),
+    role: "admin",
+    status: "Active",
+    createdAt: "2025-01-01T08:00:00.000Z"
+  },
+  // Primary Demo Officer
+  {
+    id: "user-off-1",
+    name: "Officer Rajesh Kumar",
+    email: "officer@grievance.gov.demo",
+    phone: "9840112233",
+    address: "Divisional Office, 2nd Avenue, Anna Nagar, Chennai - 600040",
+    passwordHash: hashPassword("officer123"),
+    role: "officer",
+    departmentId: "dept-1",
+    status: "Active",
+    createdAt: "2025-01-15T10:00:00.000Z"
+  },
+  // Additional Officers matching DEFAULT_OFFICERS
+  {
+    id: "user-off-2",
+    name: "Officer Priya Sundaram",
+    email: "priya.roads@grievance.gov.demo",
+    phone: "9840112234",
+    address: "Zonal Office, Royapuram, Chennai",
+    passwordHash: hashPassword("officer123"),
+    role: "officer",
+    departmentId: "dept-1",
+    status: "Active",
+    createdAt: "2025-01-15T10:00:00.000Z"
+  },
+  {
+    id: "user-off-3",
+    name: "Officer Anand Narayanan",
+    email: "anand.water@grievance.gov.demo",
+    phone: "9840112235",
+    address: "Water Board Building, T. Nagar, Chennai",
+    passwordHash: hashPassword("officer123"),
+    role: "officer",
+    departmentId: "dept-2",
+    status: "Active",
+    createdAt: "2025-01-15T10:00:00.000Z"
+  },
+  {
+    id: "user-off-4",
+    name: "Officer Suresh Babu",
+    email: "suresh.water@grievance.gov.demo",
+    phone: "9840112236",
+    address: "Water Board Building, Adyar, Chennai",
+    passwordHash: hashPassword("officer123"),
+    role: "officer",
+    departmentId: "dept-2",
+    status: "Active",
+    createdAt: "2025-01-15T10:00:00.000Z"
+  },
+  {
+    id: "user-off-5",
+    name: "Officer Vigneshwaran R.",
+    email: "vignesh.elec@grievance.gov.demo",
+    phone: "9840112237",
+    address: "TNEB Office, Thiru Vi Ka Nagar, Chennai",
+    passwordHash: hashPassword("officer123"),
+    role: "officer",
+    departmentId: "dept-3",
+    status: "Active",
+    createdAt: "2025-01-15T10:00:00.000Z"
+  },
+  {
+    id: "user-off-6",
+    name: "Officer Manjula Devi",
+    email: "manjula.waste@grievance.gov.demo",
+    phone: "9840112238",
+    address: "Sanitation Zone 8, Kilpauk, Chennai",
+    passwordHash: hashPassword("officer123"),
+    role: "officer",
+    departmentId: "dept-4",
+    status: "Active",
+    createdAt: "2025-01-15T10:00:00.000Z"
+  },
+  {
+    id: "user-off-7",
+    name: "Dr. Harish Madhavan",
+    email: "harish.health@grievance.gov.demo",
+    phone: "9840112239",
+    address: "Health Center, Mylapore, Chennai",
+    passwordHash: hashPassword("officer123"),
+    role: "officer",
+    departmentId: "dept-5",
+    status: "Active",
+    createdAt: "2025-01-15T10:00:00.000Z"
+  },
+  {
+    id: "user-off-8",
+    name: "Officer Manikandan S.",
+    email: "mani.lighting@grievance.gov.demo",
+    phone: "9840112240",
+    address: "Electrical Division, Valasaravakkam, Chennai",
+    passwordHash: hashPassword("officer123"),
+    role: "officer",
+    departmentId: "dept-6",
+    status: "Active",
+    createdAt: "2025-01-15T10:00:00.000Z"
+  },
+  {
+    id: "user-off-9",
+    name: "Officer Saravanan G.",
+    email: "saravanan.drain@grievance.gov.demo",
+    phone: "9840112241",
+    address: "Drainage Board, Ambattur, Chennai",
+    passwordHash: hashPassword("officer123"),
+    role: "officer",
+    departmentId: "dept-7",
+    status: "Active",
+    createdAt: "2025-01-15T10:00:00.000Z"
+  },
+  {
+    id: "user-off-10",
+    name: "Officer Balamurugan T.",
+    email: "bala.roads@grievance.gov.demo",
+    phone: "9840112242",
+    address: "Highways Zone 14, Perungudi, Chennai",
+    passwordHash: hashPassword("officer123"),
+    role: "officer",
+    departmentId: "dept-1",
+    status: "Active",
+    createdAt: "2025-01-15T10:00:00.000Z"
+  },
+  // Primary Demo Citizen
+  {
+    id: "user-cit-1",
+    name: "Sundar Ramanathan",
+    email: "citizen@example.com",
+    phone: "9840234567",
+    address: "Flat 4B, Shanti Enclave, 4th Main Road, Anna Nagar West, Chennai - 600040",
+    passwordHash: hashPassword("citizen123"),
+    role: "citizen",
+    status: "Active",
+    createdAt: "2025-01-20T11:30:00.000Z"
+  }
+];
+
 // Ensure Storage Directory and JSON files exist
 const initStorage = () => {
   try {
@@ -68,17 +218,64 @@ const initStorage = () => {
     Object.values(STORAGE_FILES).forEach((fileName) => {
       const filePath = path.join(STORAGE_DIR, fileName);
       if (!fs.existsSync(filePath)) {
-        // Initialize departments and officers with default lookup items if fresh
+        // Initialize departments, officers, and users with default lookup items if fresh
         if (fileName === STORAGE_FILES.DEPARTMENTS) {
           fs.writeFileSync(filePath, JSON.stringify(DEFAULT_DEPARTMENTS, null, 2), 'utf8');
         } else if (fileName === STORAGE_FILES.OFFICERS) {
           fs.writeFileSync(filePath, JSON.stringify(DEFAULT_OFFICERS, null, 2), 'utf8');
+        } else if (fileName === STORAGE_FILES.USERS) {
+          fs.writeFileSync(filePath, JSON.stringify(DEFAULT_USERS, null, 2), 'utf8');
         } else {
           fs.writeFileSync(filePath, JSON.stringify([], null, 2), 'utf8');
         }
         console.log(`[Storage Server] Initialized JSON file: ${fileName}`);
       }
     });
+
+    // Ensure all demo users exist in users.json without deleting or overwriting existing citizen accounts
+    const usersFilePath = path.join(STORAGE_DIR, STORAGE_FILES.USERS);
+    if (fs.existsSync(usersFilePath)) {
+      let existingUsers = [];
+      try {
+        const content = fs.readFileSync(usersFilePath, 'utf8').trim();
+        if (content) existingUsers = JSON.parse(content);
+      } catch (err) {
+        console.error('[Storage Server] Error reading users.json for seeding:', err);
+        existingUsers = [];
+      }
+
+      let modified = false;
+      DEFAULT_USERS.forEach((defUser) => {
+        const index = existingUsers.findIndex(
+          (u) => u.email && u.email.toLowerCase().trim() === defUser.email.toLowerCase().trim()
+        );
+        if (index === -1) {
+          existingUsers.push({ ...defUser });
+          modified = true;
+        } else {
+          // Keep demo accounts synchronized with required credentials and active status
+          const curr = existingUsers[index];
+          if (
+            curr.passwordHash !== defUser.passwordHash ||
+            curr.role !== defUser.role ||
+            curr.status !== 'Active'
+          ) {
+            existingUsers[index] = {
+              ...curr,
+              passwordHash: defUser.passwordHash,
+              role: defUser.role,
+              status: 'Active'
+            };
+            modified = true;
+          }
+        }
+      });
+
+      if (modified) {
+        writeJSON(STORAGE_FILES.USERS, existingUsers);
+        console.log('[Storage Server] Verified and synchronized demo users in users.json');
+      }
+    }
   } catch (error) {
     console.error('[Storage Server] Failed to initialize storage directory or files:', error);
   }
@@ -103,17 +300,12 @@ const readJSON = (fileName) => {
 
 const writeJSON = (fileName, data) => {
   const filePath = path.join(STORAGE_DIR, fileName);
-  const tempPath = path.join(STORAGE_DIR, `${fileName}.${Date.now()}.tmp`);
   try {
     const jsonString = JSON.stringify(data, null, 2);
-    fs.writeFileSync(tempPath, jsonString, 'utf8');
-    fs.renameSync(tempPath, filePath);
+    fs.writeFileSync(filePath, jsonString, 'utf8');
     return true;
   } catch (error) {
     console.error(`[Storage Server] Error writing JSON file ${fileName}:`, error);
-    if (fs.existsSync(tempPath)) {
-      try { fs.unlinkSync(tempPath); } catch (_) {}
-    }
     throw error;
   }
 };
@@ -276,19 +468,51 @@ app.post('/api/auth/login', (req, res) => {
       return res.status(400).json({ error: 'Email and password are required.' });
     }
 
-    const users = readJSON(STORAGE_FILES.USERS);
+    let users = readJSON(STORAGE_FILES.USERS);
     const normalizedEmail = email.toLowerCase().trim();
     const hashed = hashPassword(password);
 
-    // Support both hashed password and legacy plaintext matches for demo migration
-    const user = users.find(
-      (u) =>
-        u.email.toLowerCase().trim() === normalizedEmail &&
-        (u.passwordHash === hashed || u.password === password)
+    // 1. Locate user by email in existing users storage
+    let userIndex = users.findIndex(
+      (u) => u.email && u.email.toLowerCase().trim() === normalizedEmail
     );
 
-    if (!user) {
+    // 2. If not found in users.json, check DEFAULT_USERS and auto-seed
+    if (userIndex === -1) {
+      const defMatch = DEFAULT_USERS.find(
+        (du) => du.email && du.email.toLowerCase().trim() === normalizedEmail
+      );
+      if (defMatch) {
+        users.push({ ...defMatch });
+        writeJSON(STORAGE_FILES.USERS, users);
+        userIndex = users.length - 1;
+      }
+    }
+
+    if (userIndex === -1) {
       return res.status(401).json({ error: 'Invalid email or password.' });
+    }
+
+    let user = users[userIndex];
+
+    // 3. Check password validity (supports hash and legacy plaintext)
+    const isPasswordValid =
+      user.passwordHash === hashed ||
+      user.password === password;
+
+    if (!isPasswordValid) {
+      // If user is a predefined demo user and entered correct default password, auto-heal hash
+      const defMatch = DEFAULT_USERS.find(
+        (du) => du.email && du.email.toLowerCase().trim() === normalizedEmail
+      );
+      if (defMatch && defMatch.passwordHash === hashed) {
+        users[userIndex].passwordHash = hashed;
+        delete users[userIndex].password;
+        writeJSON(STORAGE_FILES.USERS, users);
+        user = users[userIndex];
+      } else {
+        return res.status(401).json({ error: 'Invalid email or password.' });
+      }
     }
 
     if (user.status === 'Inactive') {

@@ -4,9 +4,10 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "concurrently -n \"SERVER,CLIENT\" -c \"blue,green\" \"npm run storage\" \"vite\"",
+    "dev:client": "vite",
     "storage": "node server/storage-server.js",
-    "dev:all": "concurrently -n \"SERVER,CLIENT\" -c \"blue,green\" \"npm run storage\" \"npm run dev\"",
+    "dev:all": "concurrently -n \"SERVER,CLIENT\" -c \"blue,green\" \"npm run storage\" \"vite\"",
     "build": "vite build",
     "lint": "oxlint",
     "preview": "vite preview"

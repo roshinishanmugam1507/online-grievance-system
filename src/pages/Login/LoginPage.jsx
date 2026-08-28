@@ -36,15 +36,25 @@ export const LoginPage = () => {
           })
         );
 
-        if (from) {
-          navigate(from, { replace: true });
-        } else if (user.role === 'admin') {
-          navigate('/admin/dashboard', { replace: true });
-        } else if (user.role === 'officer') {
-          navigate('/officer/dashboard', { replace: true });
-        } else {
-          navigate('/citizen/dashboard', { replace: true });
+        const roleDashboard =
+          user.role === 'admin'
+            ? '/admin/dashboard'
+            : user.role === 'officer'
+            ? '/officer/dashboard'
+            : '/citizen/dashboard';
+
+        let targetPath = roleDashboard;
+        if (from && from !== '/login' && from !== '/register' && from !== '/unauthorized') {
+          if (user.role === 'admin' && (from.startsWith('/admin') || from.startsWith('/notifications') || from.startsWith('/profile') || from.startsWith('/grievances/'))) {
+            targetPath = from;
+          } else if (user.role === 'officer' && (from.startsWith('/officer') || from.startsWith('/notifications') || from.startsWith('/profile') || from.startsWith('/grievances/'))) {
+            targetPath = from;
+          } else if (user.role === 'citizen' && (from.startsWith('/citizen') || from.startsWith('/grievances') || from.startsWith('/notifications') || from.startsWith('/profile') || from.startsWith('/track'))) {
+            targetPath = from;
+          }
         }
+
+        navigate(targetPath, { replace: true });
       }
     } catch (err) {
       console.error('Login error:', err);

@@ -182,5 +182,237 @@
     "referenceId": "GRV-0003",
     "details": "Viewed grievance details (GRV-2026-000001)",
     "timestamp": "2026-08-28T05:05:26.197Z"
+  },
+  {
+    "id": "ACT-0024",
+    "userId": "USR-0003",
+    "action": "USER_LOGIN",
+    "referenceId": "USR-0003",
+    "details": "User logged in (maha1234@gmail.com)",
+    "timestamp": "2026-08-28T06:26:33.963Z"
+  },
+  {
+    "id": "ACT-0025",
+    "userId": "USR-0003",
+    "action": "GRIEVANCE_VIEWED",
+    "referenceId": "GRV-0003",
+    "details": "Viewed grievance details (GRV-2026-000001)",
+    "timestamp": "2026-08-28T06:27:11.901Z"
+  },
+  {
+    "id": "ACT-0026",
+    "userId": "USR-0003",
+    "action": "GRIEVANCE_VIEWED",
+    "referenceId": "GRV-0003",
+    "details": "Viewed grievance details (GRV-2026-000001)",
+    "timestamp": "2026-08-28T06:27:11.903Z"
+  },
+  {
+    "id": "ACT-0027",
+    "userId": "USR-0003",
+    "action": "NOTIFICATION_READ",
+    "referenceId": "NOT-0008",
+    "details": "Notification marked as read: Grievance Registered",
+    "timestamp": "2026-08-28T06:27:11.907Z"
+  },
+  {
+    "id": "ACT-0028",
+    "userId": "USR-0003",
+    "action": "GRIEVANCE_TRACKED",
+    "referenceId": "GRV-0003",
+    "details": "Complaint tracked: GRV-2026-000001",
+    "timestamp": "2026-08-28T06:27:33.131Z"
+  },
+  {
+    "id": "ACT-0029",
+    "userId": "USR-0003",
+    "action": "GRIEVANCE_TRACKED",
+    "referenceId": "GRV-0003",
+    "details": "Complaint tracked: GRV-2026-000001",
+    "timestamp": "2026-08-28T06:27:33.144Z"
+  },
+  {
+    "id": "ACT-0030",
+    "userId": "USR-0003",
+    "action": "GRIEVANCE_VIEWED",
+    "referenceId": "GRV-0003",
+    "details": "Viewed grievance details (GRV-2026-000001)",
+    "timestamp": "2026-08-28T06:27:40.104Z"
+  },
+  {
+    "id": "ACT-0031",
+    "userId": "USR-0003",
+    "action": "GRIEVANCE_VIEWED",
+    "referenceId": "GRV-0003",
+    "details": "Viewed grievance details (GRV-2026-000001)",
+    "timestamp": "2026-08-28T06:27:40.141Z"
+  },
+  {
+    "id": "ACT-0032",
+    "userId": "USR-0003",
+    "action": "USER_LOGOUT",
+    "referenceId": "USR-0003",
+    "details": "User logged out",
+    "timestamp": "2026-08-28T06:28:28.339Z"
+  },
+  {
+    "id": "ACT-0033",
+    "userId": "USR-0003",
+    "action": "USER_LOGIN",
+    "referenceId": "USR-0003",
+    "details": "User logged in (maha1234@gmail.com)",
+    "timestamp": "2026-08-28T06:29:23.333Z"
+  },
+  {
+    "id": "ACT-0034",
+    "userId": "USR-0003",
+    "action": "GRIEVANCE_VIEWED",
+    "referenceId": "GRV-0003",
+    "details": "Viewed grievance details (GRV-2026-000001)",
+    "timestamp": "2026-08-28T06:30:12.227Z"
+  },
+  {
+    "id": "ACT-0035",
+    "userId": "USR-0003",
+    "action": "GRIEVANCE_VIEWED",
+    "referenceId": "GRV-0003",
+    "details": "Viewed grievance details (GRV-2026-000001)",
+    "timestamp": "2026-08-28T06:30:12.230Z"
+  },
+  {
+    "id": "ACT-0036",
+    "userId": "USR-0003",
+    "action": "USER_LOGOUT",
+    "referenceId": "USR-0003",
+    "details": "User logged out",
+    "timestamp": "2026-08-28T06:30:26.878Z"
+  },
+  {
+    "id": "ACT-0037",
+    "userId": "user-admin-1",
+    "action": "USER_LOGIN",
+    "referenceId": "user-admin-1",
+    "details": "User logged in (admin@grievance.gov.demo)",
+    "timestamp": "2026-08-28T07:00:04.149Z"
+  },
+  {
+    "id": "ACT-0038",
+    "userId": "user-off-1",
+    "action": "USER_LOGIN",
+    "referenceId": "user-off-1",
+    "details": "User logged in (officer@grievance.gov.demo)",
+    "timestamp": "2026-08-28T07:00:04.172Z"
+  },
+  {
+    "id": "ACT-0039",
+    "userId": "user-cit-1",
+    "action": "USER_LOGIN",
+    "referenceId": "user-cit-1",
+    "details": "User logged in (citizen@example.com)",
+    "timestamp": "2026-08-28T07:00:04.199Z"
+  },
+  {
+    "id": "ACT-0040",
+    "userId": "user-admin-1",
+    "action": "USER_LOGIN",
+    "referenceId": "user-admin-1",
+    "details": "User logged in (admin@grievance.gov.demo)",
+    "timestamp": "2026-08-28T07:03:13.473Z"
+  },
+  {
+    "id": "ACT-0041",
+    "userId": "user-off-1",
+    "action": "USER_LOGIN",
+    "referenceId": "user-off-1",
+    "details": "User logged in (officer@grievance.gov.demo)",
+    "timestamp": "2026-08-28T07:03:13.503Z"
+  },
+  {
+    "id": "ACT-0042",
+    "userId": "user-cit-1",
+    "action": "USER_LOGIN",
+    "referenceId": "user-cit-1",
+    "details": "User logged in (citizen@example.com)",
+    "timestamp": "2026-08-28T07:03:13.514Z"
+  },
+  {
+    "id": "ACT-0043",
+    "userId": "user-off-1",
+    "action": "USER_LOGIN",
+    "referenceId": "user-off-1",
+    "details": "User logged in (officer@grievance.gov.demo)",
+    "timestamp": "2026-08-28T07:03:26.104Z"
+  },
+  {
+    "id": "ACT-0044",
+    "userId": "user-admin-1",
+    "action": "USER_LOGIN",
+    "referenceId": "user-admin-1",
+    "details": "User logged in (admin@grievance.gov.demo)",
+    "timestamp": "2026-08-28T07:04:24.933Z"
+  },
+  {
+    "id": "ACT-0045",
+    "userId": "user-off-1",
+    "action": "USER_LOGIN",
+    "referenceId": "user-off-1",
+    "details": "User logged in (officer@grievance.gov.demo)",
+    "timestamp": "2026-08-28T07:04:24.968Z"
+  },
+  {
+    "id": "ACT-0046",
+    "userId": "user-cit-1",
+    "action": "USER_LOGIN",
+    "referenceId": "user-cit-1",
+    "details": "User logged in (citizen@example.com)",
+    "timestamp": "2026-08-28T07:04:24.984Z"
+  },
+  {
+    "id": "ACT-0047",
+    "userId": "user-admin-1",
+    "action": "USER_LOGIN",
+    "referenceId": "user-admin-1",
+    "details": "User logged in (admin@grievance.gov.demo)",
+    "timestamp": "2026-08-28T07:04:24.996Z"
+  },
+  {
+    "id": "ACT-0048",
+    "userId": "user-off-1",
+    "action": "USER_LOGIN",
+    "referenceId": "user-off-1",
+    "details": "User logged in (officer@grievance.gov.demo)",
+    "timestamp": "2026-08-28T07:04:25.006Z"
+  },
+  {
+    "id": "ACT-0049",
+    "userId": "user-cit-1",
+    "action": "USER_LOGIN",
+    "referenceId": "user-cit-1",
+    "details": "User logged in (citizen@example.com)",
+    "timestamp": "2026-08-28T07:04:25.024Z"
+  },
+  {
+    "id": "ACT-0050",
+    "userId": "user-admin-1",
+    "action": "USER_LOGIN",
+    "referenceId": "user-admin-1",
+    "details": "User logged in (admin@grievance.gov.demo)",
+    "timestamp": "2026-08-28T07:05:46.485Z"
+  },
+  {
+    "id": "ACT-0051",
+    "userId": "user-admin-1",
+    "action": "USER_LOGOUT",
+    "referenceId": "user-admin-1",
+    "details": "User logged out",
+    "timestamp": "2026-08-28T07:06:00.852Z"
+  },
+  {
+    "id": "ACT-0052",
+    "userId": "USR-0003",
+    "action": "USER_LOGIN",
+    "referenceId": "USR-0003",
+    "details": "User logged in (maha1234@gmail.com)",
+    "timestamp": "2026-08-28T07:06:30.577Z"
   }
 ]
